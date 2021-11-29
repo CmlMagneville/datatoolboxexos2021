@@ -23,7 +23,9 @@ head(data)
 mam_per_eco <- table(data$ecoregion_id)
 
 # Plot the histogram:
-hist(mam_per_eco, breaks = 50)
+hist(mam_per_eco, breaks = 50, xlab = "Mammal species number",
+                               ylab = "Ecoregions number",
+                               col = "aquamarine")
 
 # Save the histogram in a .png file:
 png(filename = here::here("outputs", "exo_dplyr_hist_mams.png"))
