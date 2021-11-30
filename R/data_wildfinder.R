@@ -23,11 +23,11 @@
 data.sp.list <- function() {
 
   # give the relative path to the data and read it:
-  data <- readr::read_csv(
+  data_sp <- readr::read_csv(
             here::here("data", "wwf-wildfinder", "wildfinder-mammals_list.csv")
           )
 
-  return(data)
+  return(data_sp)
 
 }
 
@@ -44,11 +44,11 @@ data.sp.list <- function() {
 data.eco.list <- function() {
 
   # give the relative path to the data and read it:
-  data <- readr::read_csv(
+  data_eco <- readr::read_csv(
     here::here("data", "wwf-wildfinder", "wildfinder-ecoregions_list.csv")
   )
 
-  return(data)
+  return(data_eco)
 
 }
 
@@ -65,11 +65,11 @@ data.eco.list <- function() {
 data.sp.eco.list <- function() {
 
   # give the relative path to the data and read it:
-  data <- readr::read_csv(
+  data_sp_eco <- readr::read_csv(
     here::here("data", "wwf-wildfinder", "wildfinder-ecoregions_species.csv")
   )
 
-  return(data)
+  return(data_sp_eco)
 
 }
 
