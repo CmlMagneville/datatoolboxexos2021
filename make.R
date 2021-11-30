@@ -1,6 +1,6 @@
 ###############################################################################
 ##
-## Script to execute the project
+## Script to execute the whole project
 ##
 ## make.R
 ##
